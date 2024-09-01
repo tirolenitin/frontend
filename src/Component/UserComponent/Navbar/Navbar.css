@@ -1,0 +1,32 @@
+.self-img{
+    height: 50px;
+    width: 50px;
+    filter: invert(1);
+    border-radius: 1rem;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-toggler {
+    margin-left: auto;
+  }
+  
+  /* Adjustments for small screens */
+  @media (max-width: 991.98px) {
+    .navbar-brand {
+      flex-grow: 1;
+      justify-content: space-between;
+    }
+  
+    .brand-text {
+      font-size: 1rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  
+

@@ -1,0 +1,22 @@
+.gradient-bg {
+    background: linear-gradient(135deg, #1d2671, #c33764);
+  }
+  
+  .gradient-bg-light {
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+  }
+  
+  .gradient-btn {
+    background: linear-gradient(135deg, #fc5c7d, #6a82fb);
+    border: none;
+  }
+  
+  .text-primary {
+    color: #ffafbd !important;
+  }
+  
+  .err {
+    margin-top: 5px;
+    font-size: 0.9rem;
+  }
+  
